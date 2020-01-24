@@ -1,3 +1,7 @@
 # marc-aleph
 
-skript na zpracování marcového výstupu z hledání v Alephu
+skript na zpracování marcového výstupu z hledání v Opacu. 
+
+Pro marcovské záznamy z Alephu (přes tisk záznamu), je třeba předzpracovat pomocí preprocess:
+
+lua preprocess.lua < soubor | lua parsemarc.lua
